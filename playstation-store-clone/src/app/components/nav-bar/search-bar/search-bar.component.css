@@ -1,0 +1,105 @@
+.search-bar-container{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: .5rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    border: solid rgba(216, 221, 228, 0.473) 1px;
+    border-radius: .2rem;
+    height: 30px;
+    width: 30%;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.input-container > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#search-box{
+    height: 29px;
+    border-bottom: solid rgba(216, 221, 228, 0.473) 1px;
+    padding: .2rem;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#search-box:focus-visible{
+    outline: unset;
+}
+
+.ng-untouched{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: solid rgba(245, 246, 248, 0.884);
+}
+
+.material-symbols-outlined{
+    color: rgba(163, 168, 175, 0.473);
+}
+
+.secondary-logo{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.secondary-logo > img{
+    width: 30px;
+    height: auto;
+    transition: width 1s;
+
+    @media(min-width: 425px){
+        width: 40px;
+    }
+
+    @media(min-width: 768px){
+        width: 60px;
+    }
+}
+
+.btn-session-container{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-session {
+    background: rgb(2, 4, 102);
+    -webkit-box-shadow: 6px 10px 24px 2px #212121; 
+    box-shadow: 6px 10px 24px 2px #212121;
+    color: #ffffff;
+    border-radius: .5rem;
+    height: 40px;
+    padding: .2rem;
+    font-weight: bold;
+    font-size: 12px;
+    width: 120px;
+    transition: font-size 1s, width 1s;
+
+    &.is-pressed{
+        background: rgb(33, 159, 190);
+    }
+
+    @media(min-width: 768px){
+        width: 200px;
+        font-size: 18px;
+    }
+}
+
+.btn-session:hover{
+    cursor: pointer;
+}

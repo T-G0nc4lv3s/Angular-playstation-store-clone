@@ -1,0 +1,19 @@
+<div class="search-bar-container container-fluid white-standard">
+    <div class="input-container">
+        <input id="search-box" [(ngModel)]="searchParam" placeholder="Search...">
+        <a href="">
+            <span class="material-symbols-outlined">search</span>
+        </a>
+    </div>
+    <div class="secondary-logo">
+        <img src={{secondaryLogoUrl}}
+        alt="image" 
+        srcset="">
+    </div>
+    <div class="btn-session-container">
+        <button class="btn-session" [class.is-pressed]="isPressed" 
+        (mousedown)="onPressed()" 
+        (mouseup)="onRelease()"
+        >Iniciar sessão</button>
+    </div>
+</div>

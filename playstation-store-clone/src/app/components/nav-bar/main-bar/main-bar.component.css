@@ -1,0 +1,116 @@
+.main-bar{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: padding 1s;
+
+    @media(min-width: 577px){
+        padding: 1rem;
+    }
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.img-logo {
+    width: 160px;
+    height: auto;
+    transition: width 1s;
+
+    @media(min-width: 577px){
+        width: 180px;
+    }
+}
+
+.contact-list{
+    display: none;
+    list-style-type: none;
+    padding: .5rem;
+    margin: 0;
+    font-size: 1rem;
+
+    @media(min-width: 577px){
+        display: flex;
+    }
+
+    &.is-open{
+        display: block;
+        padding: .5rem;
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        width: 120px;
+        height: 160px;
+        -webkit-box-shadow: 6px 10px 24px 2px #212121; 
+        box-shadow: 6px 10px 24px 2px #212121;
+    }
+
+}
+
+.btn-menu-container{
+    display: none;
+    justify-content: flex-end;
+
+    @media(max-width: 577px){
+        display: flex;
+    }
+}
+
+#burguer-menu{
+    padding: .3rem;
+    color: #000000;
+    border-radius: 50%;
+    transition: background 1s;
+}
+
+#burguer-menu:hover{
+    cursor: pointer;
+}
+
+.contact-list > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .4rem;
+    padding: .2rem;
+    border-radius: 1rem;
+    transition: background 1s, font-size 1s;
+
+    @media(max-width: 576px){
+        font-size: 1rem;
+
+        &:hover{
+            font-size: 1.1rem;
+        }
+    }
+
+    @media(min-width: 577px){
+        font-size: 1.3rem;
+
+        &:hover{
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.contact-list > li:hover{
+    cursor: pointer;
+    background: rgba(212, 211, 211, 0.507);
+}
+
+.contact-list > li > a{
+    text-decoration: none;
+    color: #000000;
+}
