@@ -7,6 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SearchBarComponent } from './components/nav-bar/search-bar/search-bar.component';
 import { MainBarComponent } from './components/nav-bar/main-bar/main-bar.component';
+import { HomeComponent } from './pages/home/home.component';
+import { GameCardComponent } from './components/game-card/game-card.component';
+import { CardLabelComponent } from './components/game-card/card-label/card-label.component';
+import { CardPriceComponent } from './components/game-card/card-price/card-price.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +18,10 @@ import { MainBarComponent } from './components/nav-bar/main-bar/main-bar.compone
     NavBarComponent,
     SearchBarComponent,
     MainBarComponent,
+    HomeComponent,
+    GameCardComponent,
+    CardLabelComponent,
+    CardPriceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

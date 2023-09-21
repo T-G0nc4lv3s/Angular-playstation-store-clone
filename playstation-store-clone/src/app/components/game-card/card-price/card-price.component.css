@@ -1,0 +1,52 @@
+.card-price-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: rgba(7, 7, 7, 0.705);
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: Calibri;
+    font-size: 12px;
+    padding: .5rem;
+}
+
+.car-price-title > h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-price-value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price-value-console{
+    display: flex;
+    align-items: center;
+}
+
+.card-price-value-console:first-child{
+    color: aqua;
+    font-weight: 700;
+}
+
+#console-description{
+    color: antiquewhite;
+    margin-left: .4rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-price-value-amount{
+    display: flex;
+}
+
+.card-price-value-amount > span{
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: 500;
+}
