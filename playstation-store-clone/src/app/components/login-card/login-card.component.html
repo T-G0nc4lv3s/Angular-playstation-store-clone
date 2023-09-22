@@ -1,0 +1,22 @@
+<div class="login-card-cotainer">
+    <div class="login-close-btn-container">
+        <img src={{mainLogoUrl}} alt="">
+        <a [routerLink]="['']">
+            <span id="close-icon" class="material-symbols-outlined">close</span>
+        </a>
+    </div>
+    <div class="login-img-container">
+        <img src={{secondaryLogoUrl}} 
+        alt="image">
+    </div>
+    <div class="login-form-container">
+        <input id="input-email" [(ngModel)]="email" placeholder="Email">
+        <input id="input-password" [(ngModel)]="password" placeholder="Password">
+        <button id="login-btn" [class.is-pressed]="isPressed"
+        (mousedown)="onPressed()" 
+        (mouseup)="onRelease()"
+        >LOGIN</button>  
+        <a href=""><span>Forgot your password ?</span></a>
+        <button id="create-acount">Create acount</button>
+    </div>
+</div>
