@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { GameCardComponent } from './components/game-card/game-card.component';
 import { CardLabelComponent } from './components/game-card/card-label/card-label.component';
 import { CardPriceComponent } from './components/game-card/card-price/card-price.component';
+import { LoginComponent } from './pages//login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CardPriceComponent } from './components/game-card/card-price/card-price
     GameCardComponent,
     CardLabelComponent,
     CardPriceComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
