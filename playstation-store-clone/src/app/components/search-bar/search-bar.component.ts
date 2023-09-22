@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./search-bar.component.css'],
 })
 export class SearchBarComponent {
-  secondaryLogoUrl: String =
-    'https://www.freepnglogos.com/uploads/playstation-png-logo/navy-playstation-png-logo-5.png';
-  searchParam = '';
+  logoUrl: String =
+    'https://www.pngall.com/wp-content/uploads/13/PlayStation-Logo-PNG-Photos.png';
+  searchParam: String = '';
   isPressed: Boolean = false;
 
   onPressed(): void {

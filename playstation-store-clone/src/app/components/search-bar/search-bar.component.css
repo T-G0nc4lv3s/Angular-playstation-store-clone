@@ -1,10 +1,11 @@
 .search-bar-container{
+    /*
     position: relative;
     top: 80px;
+    */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
     padding: .5rem;
 }
 
@@ -29,15 +30,14 @@
 
 #search-box{
     height: 29px;
+    border: solid #ffffff 1px;
     border-bottom: solid rgba(216, 221, 228, 0.473) 1px;
-    padding: .2rem;
     width: 100%;
     overflow: hidden;
-    
 }
 
 #search-box:focus-visible{
-    outline: unset;
+    outline: none;
 }
 
 .ng-untouched{
@@ -56,7 +56,7 @@
     width: 30%;
 }
 
-.secondary-logo > img{
+.logo-container > img{
     width: 30px;
     height: auto;
     transition: width 1s;
