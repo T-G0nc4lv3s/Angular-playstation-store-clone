@@ -34,7 +34,7 @@
     }
 }
 
-.contact-list{
+.nav-list{
     display: none;
     list-style-type: none;
     padding: .5rem;
@@ -79,21 +79,22 @@
     cursor: pointer;
 }
 
-.contact-list > li{
+.nav-list > li{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: .4rem;
     padding: .2rem;
     border-radius: 1rem;
+    transition: background 1s;
 }
 
-.contact-list > li:hover{
+.nav-list > li:hover{
     cursor: pointer;
     background: rgba(212, 211, 211, 0.507);
 }
 
-.contact-list > li > a{
+.nav-list > li > a{
     text-decoration: none;
     color: #000000;
     font-size: 1rem;
