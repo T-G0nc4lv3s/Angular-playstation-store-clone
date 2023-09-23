@@ -1,0 +1,9 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container > img {
+    width: 100%;
+}

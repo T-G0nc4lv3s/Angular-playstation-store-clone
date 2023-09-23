@@ -5,8 +5,12 @@
 }
 
 body{
+    background: rgb(9,10,14);
+    background: linear-gradient(159deg, rgba(9,10,14,1) 0%, rgba(18,33,97,1) 96%); 
+    /*
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 35%, rgba(9, 9, 121, 1) 100%); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 35%, rgba(9, 9, 121, 1) 100%);
+    */
 }
 
 .white-standard{

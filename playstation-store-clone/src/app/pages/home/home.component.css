@@ -9,6 +9,10 @@
     color: antiquewhite;
 }
 
+.banner-container{
+    padding: 0;
+}
+
 #home-search{
     display: flex;
     padding-left: 0;

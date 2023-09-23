@@ -13,6 +13,7 @@ import { CardPriceComponent } from './components/game-card/card-price/card-price
 import { LoginComponent } from './pages//login/login.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { LoginCardComponent } from './components/login-card/login-card.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { LoginCardComponent } from './components/login-card/login-card.component
     LoginComponent,
     SearchBarComponent,
     LoginCardComponent,
+    BannerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
